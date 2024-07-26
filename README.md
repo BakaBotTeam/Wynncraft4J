@@ -8,42 +8,7 @@
 
 # Installation
 
-**Maven**
-
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-```
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.github.oHate</groupId>
-        <artifactId>Wynncraft4J</artifactId>
-        <version>VERSION</version>
-    </dependency>
-</dependencies>
-```
-
-**Gradle**
-
-```groovy
-repositories {
-    maven { url 'https://jitpack.io' }
-}
-```
-
-```groovy
-dependencies {
-    implementation 'com.github.oHate:Wynncraft4J:VERSION'
-}
-```
-
-Replace VERSION with the latest [release](https://github.com/oHate/Wynncraft4J/releases).
+We do not provide a online maven repo, you need to compile it and install it manually.
 
 # v3 API Progress
 
